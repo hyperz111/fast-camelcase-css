@@ -17,6 +17,7 @@
 		"benchmark": "^2.1.4",
 		"camelcase-css": "^2.0.1",
 		"prettier": "^3.6.2",
+		"typescript": "^5.9.3",
 		"uvu": "^0.5.6"
 	}
 }
