@@ -1,6 +1,6 @@
 import { test } from "uvu";
 import { equal } from "uvu/assert";
-import fastCamelCaseCss from "../src/index.js";
+import fastCamelCaseCss from "../dist/index.js";
 
 test("Should handle common property", () => {
 	equal(fastCamelCaseCss("border-radius"), "borderRadius");

@@ -1,4 +1,4 @@
-function replace(property) {
+function replace(property: string): string {
 	let res = "";
 	let cursor = 0;
 	let index = property.indexOf("-");
@@ -12,7 +12,7 @@ function replace(property) {
 	return res + property.substring(cursor);
 }
 
-export default function camelCaseCss(property) {
+export default function camelCaseCss(property: string): string {
 	property = property.toLowerCase();
 
 	if (property === "float") return "cssFloat";

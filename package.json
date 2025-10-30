@@ -2,16 +2,37 @@
 	"name": "fast-camelcase-css",
 	"version": "0.1.0",
 	"description": "The fast version of stevenvachon/camelcase-css",
-	"main": "index.js",
-	"scripts": {
-		"test": "uvu test",
-		"format": "prettier -w **/*.{js*,md}"
-	},
-	"keywords": [],
-	"author": "Hyper-Z11",
-	"license": "MIT",
-	"packageManager": "pnpm@10.15.0",
+	"main": "./dist/index.js",
+	"module": "./dist/index.js",
 	"type": "module",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"default": "./dist/index.js",
+			"browser": "./dist/index.js"
+		}
+	},
+	"scripts": {
+		"test": "pnpm run build && uvu test",
+		"format": "prettier -w **/*.{js*,ts,md}",
+		"build": "tsc"
+	},
+	"files": [
+		"dist"
+	],
+	"keywords": [],
+	"author": "Hyper-Z11 (https://github.com/hyperz111)",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hyperz111/fast-camelcase-css.git"
+	},
+	"bugs": {
+		"url": "https://github.com/hyperz111/fast-camelcase-css/issues"
+	},
+	"homepage": "https://github.com/hyperz111/fast-camelcase-css#readme",
+	"packageManager": "pnpm@10.15.0",
 	"devDependencies": {
 		"@hyperz111/prettier-config": "^0.1.1",
 		"benchmark": "^2.1.4",
