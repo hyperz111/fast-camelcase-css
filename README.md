@@ -31,6 +31,16 @@ Convert a kebab-cased CSS property into a camel-cased DOM property.
 
 Type: `string`
 
+## Benchmark
+
+You can try to benchmark it yourself. But in my device, this is the result i get.
+
+```console
+camelcase-css x 75,735 ops/sec ±1.12% (53 runs sampled)
+fast-camelcase-css x 263,446 ops/sec ±0.92% (67 runs sampled)
+Fastest is fast-camelcase-css
+```
+
 ## Copyright
 
-Copyright © 2025-Present [Hyper-Z11](https://github.com/hyperz111/). Licensed under [ISC License](https://www.isc.org/licenses/).
+Copyright © 2025-Present [Hyper-Z11](https://github.com/hyperz111/). Licensed under [MIT License](https://opensource.org/license/mit/).

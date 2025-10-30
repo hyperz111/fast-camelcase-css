@@ -4,7 +4,7 @@ function replace(property: string): string {
 	let index = property.indexOf("-");
 
 	while (~index) {
-		res += property.substring(cursor, index) + property[index + 1].toUpperCase();
+		res += property.substring(cursor, index) + (property[index + 1] as string).toUpperCase();
 		cursor = index + 2;
 		index = property.indexOf("-", cursor);
 	}

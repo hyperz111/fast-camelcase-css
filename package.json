@@ -21,7 +21,13 @@
 	"files": [
 		"dist"
 	],
-	"keywords": [],
+	"keywords": [
+		"fast",
+		"camelcase",
+		"case",
+		"css",
+		"dom"
+	],
 	"author": "Hyper-Z11 (https://github.com/hyperz111)",
 	"license": "MIT",
 	"repository": {

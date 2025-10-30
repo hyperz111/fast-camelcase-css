@@ -1,5 +1,5 @@
 import Benchmark from "benchmark";
-import fastCamelCaseCss from "../src/index.js";
+import fastCamelCaseCss from "../dist/index.js";
 import camelCaseCss from "camelcase-css";
 
 const suite = new Benchmark.Suite();
