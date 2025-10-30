@@ -1,0 +1,22 @@
+{
+	"name": "fast-camelcase-css",
+	"version": "0.1.0",
+	"description": "The fast version of stevenvachon/camelcase-css",
+	"main": "index.js",
+	"scripts": {
+		"test": "uvu test",
+		"format": "prettier -w **/*.{js*,md}"
+	},
+	"keywords": [],
+	"author": "Hyper-Z11",
+	"license": "MIT",
+	"packageManager": "pnpm@10.15.0",
+	"type": "module",
+	"devDependencies": {
+		"@hyperz111/prettier-config": "^0.1.1",
+		"benchmark": "^2.1.4",
+		"camelcase-css": "^2.0.1",
+		"prettier": "^3.6.2",
+		"uvu": "^0.5.6"
+	}
+}
