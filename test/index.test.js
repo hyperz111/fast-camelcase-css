@@ -10,7 +10,7 @@ test("Should handle prefixed property", () => {
 	equal(fastCamelCaseCss("-webkit-border-radius"), "WebkitBorderRadius");
 });
 
-test("Should handle propery with `ms` prefix", () => {
+test("Should handle property with `ms` prefix", () => {
 	equal(fastCamelCaseCss("-ms-border-radius"), "msBorderRadius");
 });
 

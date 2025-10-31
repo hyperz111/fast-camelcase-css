@@ -1,6 +1,6 @@
 # fast-camelcase-css
 
-The fast version of [`stevenvachon/camelcase-css`](https://github.com/stevenvachon/camelcase-css);
+The fast version of [`stevenvachon/camelcase-css`](https://github.com/stevenvachon/camelcase-css).
 
 ## Install
 
