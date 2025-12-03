@@ -34,13 +34,14 @@ Type: `string`
 ## Benchmark
 
 You can try to benchmark it yourself. But in my device, this is the result i get.
+This is using `color` property for benchmarking.
 
 ```console
-camelcase-css x 75,735 ops/sec ±1.12% (53 runs sampled)
-fast-camelcase-css x 263,446 ops/sec ±0.92% (67 runs sampled)
+camelcase-css x 1,036,719 ops/sec ±0.76% (64 runs sampled)
+fast-camelcase-css x 3,081,526 ops/sec ±1.35% (60 runs sampled)
 Fastest is fast-camelcase-css
 ```
 
-## Copyright
+## License
 
-Copyright © 2025-Present [Hyper-Z11](https://github.com/hyperz111/). Licensed under [MIT License](https://opensource.org/license/mit/).
+[MIT](https://opensource.org/license/mit/)
