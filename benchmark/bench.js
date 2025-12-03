@@ -3,13 +3,14 @@ import fastCamelCaseCss from "../dist/index.js";
 import camelCaseCss from "camelcase-css";
 
 const suite = new Benchmark.Suite();
+const text = "color";
 
 suite
 	.add("camelcase-css", function () {
-		camelCaseCss("-webkit-tap-highlight-color");
+		camelCaseCss(text);
 	})
 	.add("fast-camelcase-css", function () {
-		fastCamelCaseCss("-webkit-tap-highlight-color");
+		fastCamelCaseCss(text);
 	})
 	.on("cycle", function (event) {
 		console.log(String(event.target));
