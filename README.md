@@ -37,8 +37,8 @@ You can try to benchmark it yourself. But in my device, this is the result i get
 This is using `color` property for benchmarking.
 
 ```console
-camelcase-css x 1,036,719 ops/sec ±0.76% (64 runs sampled)
-fast-camelcase-css x 3,081,526 ops/sec ±1.35% (60 runs sampled)
+camelcase-css x 1,020,275 ops/sec ±1.08% (62 runs sampled)
+fast-camelcase-css x 3,955,652 ops/sec ±2.07% (65 runs sampled)
 Fastest is fast-camelcase-css
 ```
 
