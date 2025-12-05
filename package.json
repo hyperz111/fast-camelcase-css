@@ -16,7 +16,8 @@
 	"scripts": {
 		"test": "pnpm run build && uvu test",
 		"format": "prettier -w **/*.{js*,ts,md}",
-		"build": "tsc"
+		"build": "tsc",
+		"prepublishOnly": "pnpm run build"
 	},
 	"files": [
 		"dist"
