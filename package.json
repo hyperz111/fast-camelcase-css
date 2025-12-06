@@ -41,6 +41,7 @@
 	"packageManager": "pnpm@10.15.0",
 	"devDependencies": {
 		"@hyperz111/prettier-config": "^0.1.1",
+		"@hyperz111/tsconfig": "^0.1.0",
 		"benchmark": "^2.1.4",
 		"camelcase-css": "^2.0.1",
 		"prettier": "^3.6.2",
