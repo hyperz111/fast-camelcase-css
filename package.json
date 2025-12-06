@@ -1,6 +1,6 @@
 {
 	"name": "fast-camelcase-css",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "The fast version of stevenvachon/camelcase-css",
 	"main": "./dist/index.js",
 	"module": "./dist/index.js",
