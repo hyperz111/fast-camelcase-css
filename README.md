@@ -1,5 +1,8 @@
 # fast-camelcase-css
 
+> [!NOTE]
+> This project is ONLY for `postcss-js` and is done🎉.
+
 The fast version of [`stevenvachon/camelcase-css`](https://github.com/stevenvachon/camelcase-css).
 
 ## Install
